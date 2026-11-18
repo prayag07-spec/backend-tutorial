@@ -1,0 +1,33 @@
+{
+  "name": "backend-tutorial-node-express-mongodb",
+  "version": "1.0.0",
+  "description": "Backend Tutorial implementing Node.js, Express.js, and MongoDB with MRC architecture and CRUD operations",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "crud",
+    "rest-api"
+  ],
+  "author": "Prayag",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0",
+    "nodemon": "^3.1.9"
+  }
+}
